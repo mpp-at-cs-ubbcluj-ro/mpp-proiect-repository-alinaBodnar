@@ -5,5 +5,6 @@ public class Main {
         System.out.println("Hello!");
         Donor donor = new Donor(1,"Vasile","Popescu","Cluj 190J","071234455");
         System.out.println(donor.toString());
+        System.out.println(donor.getAddress());
     }
 }
