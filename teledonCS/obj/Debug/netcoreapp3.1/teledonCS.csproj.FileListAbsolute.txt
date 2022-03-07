@@ -1,0 +1,13 @@
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.deps.json
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.runtimeconfig.json
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.runtimeconfig.dev.json
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.dll
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\bin\Debug\netcoreapp3.1\teledonCS.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.csprojAssemblyReference.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.AssemblyInfoInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.AssemblyInfo.cs
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.csproj.CoreCompileInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.dll
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonCS\obj\Debug\netcoreapp3.1\teledonCS.genruntimeconfig.cache
