@@ -4,14 +4,13 @@ import java.io.Serializable;
 
 public class Donation implements Identifiable<Integer>, Serializable {
     private int id;
-    private int donorId;
-    private int charitableCaseId;
-    private double amountDonated;
+    private Donor donor;
+    private CharitableCase charitableCase;
+    private int amountDonated;
 
-    public Donation(int id, int donorId, int charitableCaseId, double amountDonated) {
-        this.id = id;
-        this.donorId = donorId;
-        this.charitableCaseId = charitableCaseId;
+    public Donation( Donor donorId, CharitableCase charitableCaseId, int amountDonated) {
+        this.donor = donorId;
+        this.charitableCase = charitableCaseId;
         this.amountDonated = amountDonated;
     }
 
@@ -24,27 +23,27 @@ public class Donation implements Identifiable<Integer>, Serializable {
         this.id = id;
     }
 
-    public int getDonorId() {
-        return donorId;
+    public Donor getDonor() {
+        return donor;
     }
 
-    public void setDonorId(int donorId) {
-        this.donorId = donorId;
+    public void setDonor(Donor donorId) {
+        this.donor = donorId;
     }
 
-    public int getCharitableCaseId() {
-        return charitableCaseId;
+    public CharitableCase getCharitableCase() {
+        return charitableCase;
     }
 
-    public void setCharitableCaseId(int charitableCaseId) {
-        this.charitableCaseId = charitableCaseId;
+    public void setCharitableCase(CharitableCase charitableCaseId) {
+        this.charitableCase = charitableCaseId;
     }
 
-    public double getAmountDonated() {
+    public int getAmountDonated() {
         return amountDonated;
     }
 
-    public void setAmountDonated(double amountDonated) {
+    public void setAmountDonated(int amountDonated) {
         this.amountDonated = amountDonated;
     }
 
@@ -52,8 +51,8 @@ public class Donation implements Identifiable<Integer>, Serializable {
     public String toString() {
         return "Donation{" +
                 "id=" + id +
-                ", donorId=" + donorId +
-                ", charitableCaseId=" + charitableCaseId +
+                ", donorId=" + donor +
+                ", charitableCaseId=" + charitableCase +
                 ", amountDonated=" + amountDonated +
                 '}';
     }

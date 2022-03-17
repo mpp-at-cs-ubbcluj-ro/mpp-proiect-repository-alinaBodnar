@@ -6,22 +6,22 @@ namespace teledonCS.model
 {
     class Donation
     {
-        public Donation(int id, int donorId, int charitableCaseId, double amountDonated)
+        public Donation(int id, Donor donor, CharitableCase charitableCase, double amountDonated)
         {
             this.id = id;
-            this.donorId = donorId;
-            this.charitableCaseId = charitableCaseId;
+            this.donor = donor;
+            this.charitableCase = charitableCase;
             this.amountDonated = amountDonated;
         }
 
-        private int id { get; set; }
-        private int donorId { get; set; }
-        private int charitableCaseId { get; set; }
-        private double amountDonated { get; set; }
+        public int id { get; set; }
+        public Donor donor { get; set; }
+        public CharitableCase charitableCase { get; set; }
+        public double amountDonated { get; set; }
 
         public override string ToString()
         {
-            return base.ToString();
+            return donor.ToString() + " " + charitableCase.ToString() + " " + amountDonated.ToString();
         }
     }
 }

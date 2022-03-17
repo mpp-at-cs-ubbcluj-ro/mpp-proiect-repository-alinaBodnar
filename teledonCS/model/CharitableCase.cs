@@ -6,9 +6,9 @@ namespace teledonCS.model
 {
     class CharitableCase
     {
-        private int id { get; set; }
-        private string name { get; set; }
-        private double amountRaised { get; set; }
+        public int id { get; set; }
+        public string name { get; set; }
+        public double amountRaised { get; set; }
 
         public CharitableCase(int id,string name,double amountRaised)
         {

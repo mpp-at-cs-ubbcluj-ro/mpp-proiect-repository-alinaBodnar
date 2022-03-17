@@ -15,15 +15,15 @@ namespace teledonCS.model
             this.phoneNumber = phoneNumber;
         }
 
-        private int id { get; set; }
-        private string firstName { get; set; }
-        private string lastName { get; set; }
-        private string address { get; set; }
-        private string phoneNumber { get; set; }
+        public int id { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string address { get; set; }
+        public string phoneNumber { get; set; }
 
         public override string ToString()
         {
-            return base.ToString();
+            return firstName + " " + lastName+" " + address + " " + phoneNumber;
         }
     }
 }
