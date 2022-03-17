@@ -5,9 +5,9 @@ import java.io.Serializable;
 public class CharitableCase implements Identifiable<Integer>, Serializable {
     private int id;
     private String name;
-    private double amountRaised;
+    private int amountRaised;
 
-    public CharitableCase(int id, String name, double amountRaised) {
+    public CharitableCase(int id, String name, int amountRaised) {
         this.id = id;
         this.name = name;
         this.amountRaised = amountRaised;
@@ -32,11 +32,11 @@ public class CharitableCase implements Identifiable<Integer>, Serializable {
         this.name = name;
     }
 
-    public double getAmountRaised() {
+    public int getAmountRaised() {
         return amountRaised;
     }
 
-    public void setAmountRaised(double amountRaised) {
+    public void setAmountRaised(int amountRaised) {
         this.amountRaised = amountRaised;
     }
 

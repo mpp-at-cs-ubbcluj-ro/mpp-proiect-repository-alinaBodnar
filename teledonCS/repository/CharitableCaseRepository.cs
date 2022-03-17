@@ -1,35 +1,171 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
 using System.Text;
+using log4net;
 using teledonCS.model;
 
 namespace teledonCS.repository
 {
-    class CharitableCaseRepository : Repository<int, CharitableCase>
+    class CharitableCaseRepository : ICharitableChaseRepository<int, CharitableCase>
     {
+        private static readonly ILog log = LogManager.GetLogger("CharitableCaseRepository");
+        IDictionary<String, string> props;
+
+        public CharitableCaseRepository(IDictionary<String, string> props)
+        {
+            log.Info("Creating CharitableCaseRepository");
+            this.props = props;
+        }
+
         public void delete(int key)
         {
-            throw new NotImplementedException();
+            log.InfoFormat("Deleting charitable case");
+            IDbConnection con = DBUtils.getConnection(props);
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "delete from CharitableCases where id = @key";
+                IDbDataParameter paramId = comm.CreateParameter();
+                paramId.ParameterName = "@key";
+                paramId.Value = key;
+                comm.Parameters.Add(paramId);
+                var dataR = comm.ExecuteNonQuery();
+                
+                if (dataR == 0)
+                {
+                    log.Error("No charitable case removed");
+                }
+                else
+                    log.InfoFormat("Charitable case removed");
+                    
+            }
+            
+        log.InfoFormat("Exiting delete");
         }
 
         public List<CharitableCase> findAll()
         {
-            throw new NotImplementedException();
+            log.InfoFormat("Finding all charitable cases");
+            IDbConnection con = DBUtils.getConnection(props);
+            IList<CharitableCase> charitableCases = new List<CharitableCase>();
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "select id,name,amountRaised from CharitableCases";
+                using (var dataR = comm.ExecuteReader())
+                {
+                    while (dataR.Read())
+                    {
+                        int idCC = dataR.GetInt32(0);
+                        String nameCC = dataR.GetString(1);
+                        int amountRaisedCC = dataR.GetInt32(2);
+                        CharitableCase charitableCase = new CharitableCase(idCC, nameCC, amountRaisedCC);
+                        charitableCases.Add(charitableCase);
+                    }
+                }
+            }
+            log.InfoFormat("Exiting findAll");
+            return (List<CharitableCase>) charitableCases;
         }
 
         public CharitableCase findOne(int key)
         {
-            throw new NotImplementedException();
+            log.InfoFormat("Entering findOne with value{0}",key);
+            IDbConnection con = DBUtils.getConnection(props);
+
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "select id,name,amountRaised from CharitableCases where id = @key";
+                IDbDataParameter paramId = comm.CreateParameter();
+                paramId.ParameterName = "@key";
+                paramId.Value = key;
+                comm.Parameters.Add(paramId);
+
+                using (var dataR = comm.ExecuteReader())
+                {
+                    if (dataR.Read())
+                    {
+                        int idCC = dataR.GetInt32(0);
+                        String nameCC = dataR.GetString(1);
+                        int amountCC = dataR.GetInt32(2);
+                        CharitableCase charitableCase = new CharitableCase(idCC, nameCC, amountCC);
+                        log.InfoFormat("Exiting findOne with value{0}",charitableCase);
+                        return charitableCase;
+                    }
+                }
+            }
+
+            log.InfoFormat("Exiting findOne with value{0}", null);
+            return null;
         }
 
         public void save(CharitableCase el)
         {
-            throw new NotImplementedException();
+            log.InfoFormat("Saving charitable case");
+            var con = DBUtils.getConnection(props);
+            using(var comm=con.CreateCommand())
+            {
+                comm.CommandText = "insert into CharitableCases(name,amountRaised) values (@name,@amount)";
+                var paramName = comm.CreateParameter();
+                paramName.ParameterName = "@name";
+                paramName.Value = el.name;
+                comm.Parameters.Add(paramName);
+                
+                var paramAmount = comm.CreateParameter();
+                paramAmount.ParameterName = "@amount";
+                paramAmount.Value = el.amountRaised;
+                comm.Parameters.Add(paramAmount);
+                
+                var result = comm.ExecuteNonQuery();
+                if (result == 0)
+                {
+                    log.Error("No charitable case added");
+                    throw new Exception("No charitable case added!!");
+                }
+                else
+                {
+                    log.InfoFormat("Charitable Case saved");
+                }
+            }
+            log.InfoFormat("Exiting save");
         }
 
         public void update(CharitableCase el)
         {
-            throw new NotImplementedException();
+            log.InfoFormat("Updating charitable case");
+            var con = DBUtils.getConnection(props);
+            using(var comm=con.CreateCommand())
+            {
+                comm.CommandText = "update CharitableCases set name = @nameNew, amountRaised = @amountNew where id = @id";
+                var paramId = comm.CreateParameter();
+                paramId.ParameterName = "@id";
+                paramId.Value = el.id;
+                comm.Parameters.Add(paramId);
+                
+                var paramName = comm.CreateParameter();
+                paramName.ParameterName = "@nameNew";
+                paramName.Value = el.name;
+                comm.Parameters.Add(paramName);
+                
+                var paramAmount = comm.CreateParameter();
+                paramAmount.ParameterName = "@amountNew";
+                paramAmount.Value = el.amountRaised;
+                comm.Parameters.Add(paramAmount);
+
+                var result = comm.ExecuteNonQuery();
+                if (result == 0)
+                {
+                    log.Error("No charitable case updated");
+                    throw new Exception("No charitable case updated!!");
+                }
+                else
+                {
+                    log.InfoFormat("Charitable case updated");
+                }
+            }
+           
+            log.InfoFormat("Exiting update");
         }
     }
 }

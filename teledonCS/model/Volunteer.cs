@@ -6,20 +6,20 @@ namespace teledonCS.model
 {
     class Volunteer
     {
-        public Volunteer(int id, string firstName, string lastName)
+        public Volunteer(int id, string username, string password)
         {
             this.id = id;
-            this.firstName = firstName;
-            this.lastName = lastName;
+            this.username = username;
+            this.password = password;
         }
 
-        private int id { get; set; }
-        private string firstName { get; set; }
-        private string lastName { get; set; }
+        public int id { get; set; }
+        public string username { get; set; }
+        public string password { get; set; }
 
         public override string ToString()
         {
-            return base.ToString();
+            return username + " " + password;
         }
     }
 }

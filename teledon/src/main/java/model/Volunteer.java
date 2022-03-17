@@ -2,13 +2,13 @@ package model;
 
 public class Volunteer implements Identifiable<Integer>{
     private int id;
-    private String firstName;
-    private String lastName;
+    private String username;
+    private String password;
 
-    public Volunteer(int id, String firstName, String lastName) {
+    public Volunteer(int id, String username, String password) {
         this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
+        this.username = username;
+        this.password = password;
     }
 
     @Override
@@ -21,28 +21,28 @@ public class Volunteer implements Identifiable<Integer>{
         this.id = id;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getUsername() {
+        return username;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getPassword() {
+        return password;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override
     public String toString() {
         return "Volunteer{" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", firstName='" + username + '\'' +
+                ", lastName='" + password + '\'' +
                 '}';
     }
 }
