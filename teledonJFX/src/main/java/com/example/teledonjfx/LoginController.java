@@ -91,15 +91,19 @@ public class LoginController implements Initializable {
     }
     private void loadCharitableCases() {
         try{
+
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("charitableCases.fxml"));
             Parent root = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            Scene scene = new Scene(root,700,600);
+            Scene scene = new Scene(root,584,310);
 
             CharitableCasesController charitableCasesController = fxmlLoader.getController();
             charitableCasesController.setCharitableService(charitableCasesService,donationService,donorService);
             stage.setScene(scene);
             stage.show();
+
+//            Stage firstStage = (Stage) loginButton.getScene().getWindow();
+//            firstStage.close();
 
         } catch (IOException e) {
             e.printStackTrace();

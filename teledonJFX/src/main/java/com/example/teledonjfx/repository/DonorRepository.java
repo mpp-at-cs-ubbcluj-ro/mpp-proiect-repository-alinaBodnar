@@ -80,7 +80,7 @@ public class DonorRepository implements IDonorRepository {
         logger.traceEntry("finding donor with id {}", id);
         Connection connection = dbUtils.getConnection();
         try(PreparedStatement preparedStatement = connection.prepareStatement("select * from Donors where id = ?")){
-            preparedStatement.setInt(0,id);
+            preparedStatement.setInt(1,id);
             try(ResultSet resultSet = preparedStatement.executeQuery()){
                 if(resultSet.next()){
                     int idDonor = resultSet.getInt("id");
@@ -166,6 +166,34 @@ public class DonorRepository implements IDonorRepository {
             System.out.println("Error DB " + e);
         }
         logger.traceExit("No donor found with id {}");
+        return null;
+    }
+
+    @Override
+    public Donor getDonorByFullName(String first, String last) {
+        logger.traceEntry("finding donor by name{}");
+        Connection connection = dbUtils.getConnection();
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select * from Donors where firstName = ? and lastName = ?")){
+            preparedStatement.setString(1,first);
+            preparedStatement.setString(2,last);
+            try(ResultSet resultSet = preparedStatement.executeQuery()){
+                if(resultSet.next()){
+                    int idDonor = resultSet.getInt("id");
+                    String firstNameDonor = resultSet.getString("firstName");
+                    String lastNameDonor = resultSet.getString("lastName");
+                    String addressDonor = resultSet.getString("address");
+                    String phoneNumberDonor = resultSet.getString("phoneNumber");
+                    Donor donor = new Donor(firstNameDonor,lastNameDonor,addressDonor,phoneNumberDonor);
+                    donor.setId(idDonor);
+                    logger.traceExit(donor);
+                    return donor;
+                }
+            }
+        } catch (SQLException e) {
+            logger.error(e);
+            System.out.println("Error DB " + e);
+        }
+        logger.traceExit("No donor found{}");
         return null;
     }
 }
