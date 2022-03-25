@@ -4,41 +4,34 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.effect.DropShadow?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.teledonjfx.CharitableCasesController">
+<AnchorPane prefHeight="310.0" prefWidth="584.0" style="-fx-background-color: #A2D5AB;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.teledonjfx.CharitableCasesController">
    <children>
-      <TableView fx:id="charitableTable" layoutX="41.0" layoutY="29.0" prefHeight="247.0" prefWidth="323.0">
+      <TableView fx:id="charitableTable" layoutX="41.0" layoutY="29.0" prefHeight="247.0" prefWidth="334.0">
         <columns>
-          <TableColumn fx:id="charitableCase" prefWidth="175.20001220703125" text="Charitable Case" />
-          <TableColumn fx:id="amountRaised" prefWidth="154.4000244140625" text="Amount Raised" />
+          <TableColumn fx:id="charitableCase" prefWidth="163.199951171875" text="Charitable Case" />
+          <TableColumn fx:id="amountRaised" prefWidth="168.00006103515625" text="Amount Raised" />
         </columns>
       </TableView>
-      <Label fx:id="labelInfo" layoutX="388.0" layoutY="72.0" prefHeight="18.0" prefWidth="196.0" textAlignment="CENTER" />
-      <AnchorPane layoutX="388.0" prefHeight="400.0" prefWidth="250.0">
-         <children>
-            <TextField fx:id="firstNameTextField" layoutX="129.0" layoutY="60.0" />
-            <TextField fx:id="addressTextField" layoutX="129.0" layoutY="177.0" />
-            <TextField fx:id="phoneNrTextField" layoutX="129.0" layoutY="237.0" />
-            <TextField fx:id="amountTextField" layoutX="129.0" layoutY="288.0" />
-            <Label layoutX="35.0" layoutY="65.0" text="First name" />
-            <Label layoutX="35.0" layoutY="191.0" text="Address" />
-            <Label layoutX="24.0" layoutY="242.0" text="Phone Nr" />
-            <Label layoutX="18.0" layoutY="292.0" text="Amount donated" />
-            <Button fx:id="SaveDonationButton" layoutX="79.0" layoutY="355.0" mnemonicParsing="false" onAction="#SaveDonationButtonOnAction" prefHeight="30.0" prefWidth="170.0" style="-fx-background-color: #22577A; -fx-background-radius: 16.4,15;" text="Save donation" textFill="WHITE">
-               <font>
-                  <Font name="Constantia Bold" size="14.0" />
-               </font>
-               <effect>
-                  <DropShadow />
-               </effect>
-            </Button>
-            <Label layoutX="37.0" layoutY="124.0" text="Last name" />
-            <TextField fx:id="lastNameTextField" layoutX="129.0" layoutY="119.0" />
-         </children>
-      </AnchorPane>
+      <Label fx:id="labelInfo" layoutX="383.0" layoutY="134.0" prefHeight="18.0" prefWidth="196.0" textAlignment="CENTER" textFill="#f20000" />
+      <Button fx:id="AddDonationButton" layoutX="406.0" layoutY="88.0" mnemonicParsing="false" onAction="#AddDonationButtonOnAction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #39AEA9; -fx-background-radius: 16.4,15;" text="Add new donation" textFill="WHITE">
+         <font>
+            <Font name="Constantia Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="490.0" layoutY="15.0" mnemonicParsing="false" onAction="#logOutButtonOnAction" prefHeight="18.0" prefWidth="79.0" style="-fx-background-color: #39AEA9; -fx-background-radius: 16.4,15;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="Constantia Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
    </children>
 </AnchorPane>

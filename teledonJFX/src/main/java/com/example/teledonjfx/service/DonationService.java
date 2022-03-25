@@ -6,6 +6,7 @@ import com.example.teledonjfx.model.Donor;
 import com.example.teledonjfx.repository.*;
 import com.example.teledonjfx.utils.Observable;
 import com.example.teledonjfx.utils.Observer;
+import com.example.teledonjfx.utils.events.ChangeEventType;
 import com.example.teledonjfx.utils.events.DonationEvent;
 
 import java.util.ArrayList;
@@ -42,6 +43,12 @@ public class DonationService implements Observable<DonationEvent> {
     }
     public void saveDonation(CharitableCase charitableCase, Donor donor,Integer amount){
         Donation newDonation = new Donation(donor,charitableCase,amount);
+        Integer oldAmount = charitableCase.getAmountRaised();
         donationRepository.save(newDonation);
+        Integer newAmount = oldAmount + amount;
+        charitableCase.setAmountRaised(newAmount);
+        charitableCaseRepository.update(charitableCase, charitableCase.getId());
+        notifyObservers(new DonationEvent(ChangeEventType.ADD,charitableCase));
+
     }
 }

@@ -7,6 +7,7 @@ import com.example.teledonjfx.service.CharitableCasesService;
 import com.example.teledonjfx.service.DonationService;
 import com.example.teledonjfx.service.DonorService;
 import com.example.teledonjfx.utils.Observer;
+import com.example.teledonjfx.utils.events.CharitableCaseEvent;
 import com.example.teledonjfx.utils.events.DonationEvent;
 import javafx.beans.Observable;
 import javafx.beans.property.IntegerProperty;
@@ -21,6 +22,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -41,11 +43,11 @@ public class CharitableCasesController implements Observer<DonationEvent> {
         this.charitableCasesService = charitableCasesService1;
         this.donationService = donationService;
         this.donorService = donorService;
+        donationService.addObserver(this);
         init();
+
     }
 
-    @FXML
-    private Button SaveDonationButton;
 
     @FXML
     private TextField addressTextField;
@@ -74,6 +76,9 @@ public class CharitableCasesController implements Observer<DonationEvent> {
     @FXML
     private TextField amountTextField;
 
+    @FXML
+    private Button logOutButton;
+
     ObservableList<CharitableCase> list = FXCollections.observableArrayList();
 
     private void init(){
@@ -87,6 +92,7 @@ public class CharitableCasesController implements Observer<DonationEvent> {
         charitableCase.setCellValueFactory(new PropertyValueFactory<CharitableCase,String>("name"));
         amountRaised.setCellValueFactory(new PropertyValueFactory<CharitableCase, Integer>("amountRaised"));
         charitableTable.setItems(list);
+
     }
 
     public void AddDonationButtonOnAction(ActionEvent actionEvent) {
@@ -94,7 +100,7 @@ public class CharitableCasesController implements Observer<DonationEvent> {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("add-donation-view.fxml"));
             Parent root = (Parent) fxmlLoader.load();
             Stage stage = new Stage();
-            Scene scene = new Scene(root,400,400);
+            Scene scene = new Scene(root,869,426);
 
             AddDonationController addDonationController = fxmlLoader.getController();
             addDonationController.setServices(charitableCasesService,donorService,donationService);
@@ -105,6 +111,7 @@ public class CharitableCasesController implements Observer<DonationEvent> {
                 Integer charitableCaseId = charitableCasesService.getCharitableCaseByName(charitableCaseSelected.getName());
                 charitableCaseSelected.setId(charitableCaseId);
                 addDonationController.setCharitableCase(charitableCaseSelected);
+                labelInfo.setText("");
 
                 stage.show();
             }
@@ -118,35 +125,25 @@ public class CharitableCasesController implements Observer<DonationEvent> {
 
     }
 
+
+
+
+    private List<CharitableCase> getAllCases(){
+        Iterable<CharitableCase> cases = charitableCasesService.getAll();
+        List<CharitableCase> charitableCaseList = new ArrayList<>();
+        cases.forEach(x->charitableCaseList.add(x));
+        return charitableCaseList;
+    }
+
+
     @Override
     public void update(DonationEvent donationEvent) {
+        list.setAll(getAllCases());
         init();
     }
 
-    public void SaveDonationButtonOnAction(ActionEvent actionEvent) {
-        String firstName = firstNameTextField.getText();
-        String lastName = lastNameTextField.getText();
-        String address = addressTextField.getText();
-        String phoneNr = phoneNrTextField.getText();
-        Integer amountDonated = Integer.parseInt(amountTextField.getText());
-
-        donorService.saveDonor(firstName,lastName,address,phoneNr);
-        Integer idDonor = donorService.getDonor(firstName,lastName);
-//        Donor donor = donorService.getDonorById(idDonor);
-//        System.out.println(donor);
-        Donor donor = new Donor(firstName,lastName,address,phoneNr);
-        donor.setId(idDonor);
-
-        CharitableCase charitableCaseSelected = charitableTable.getSelectionModel().getSelectedItem();
-        Integer charitableCaseId = charitableCasesService.getCharitableCaseByName(charitableCaseSelected.getName());
-        charitableCaseSelected.setId(charitableCaseId);
-
-        Integer newAmount = charitableCaseSelected.getAmountRaised() + amountDonated;
-
-        CharitableCase charitableCaseUpdated = new CharitableCase(charitableCaseSelected.getName(), newAmount);
-        charitableCaseUpdated.setId(charitableCaseId);
-        charitableCasesService.updateAmount(charitableCaseUpdated,charitableCaseId);
-
-        donationService.saveDonation(charitableCaseSelected,donor,amountDonated);
+    public void logOutButtonOnAction(ActionEvent actionEvent) throws IOException {
+        Stage actualStage = (Stage) logOutButton.getScene().getWindow();
+        actualStage.close();
     }
 }
