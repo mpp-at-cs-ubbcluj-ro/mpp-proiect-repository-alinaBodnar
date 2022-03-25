@@ -363,3 +363,27 @@
 15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 44 getConnection - Enter
 15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
 15 mar. 2022 10:50:44,983 TRACE repository.CharitableCaseRepository 121 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=5, name='Strangere fonduri', amountRaised=4500}, CharitableCase{id=6, name='Poluare', amountRaised=2000}, CharitableCase{id=7, name='Poluare', amountRaised=2000}, CharitableCase{id=8, name='Ucraina', amountRaised=60000}, CharitableCase{id=9, name='Ucraina', amountRaised=60000}, CharitableCase{id=10, name='Ucraina', amountRaised=60000}, CharitableCase{id=11, name='Ucraina', amountRaised=60000}, CharitableCase{id=12, name='Ucraina', amountRaised=60000}, CharitableCase{id=13, name='Ucraina', amountRaised=60000}, CharitableCase{id=14, name='Ucraina', amountRaised=60000}, CharitableCase{id=15, name='Ucraina', amountRaised=60000}, CharitableCase{id=16, name='Poluare', amountRaised=2000}])
+21 mar. 2022 15:56:36,401 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+21 mar. 2022 15:56:36,415 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+21 mar. 2022 15:56:36,415 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,416 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+21 mar. 2022 15:56:36,416 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+21 mar. 2022 15:56:36,417 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+21 mar. 2022 15:56:36,417 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+21 mar. 2022 15:56:36,629 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,639 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+21 mar. 2022 15:56:36,639 TRACE repository.CharitableCaseRepository 38 save - Exit
+21 mar. 2022 15:56:36,640 TRACE repository.CharitableCaseRepository 60 update - Enter updating charitable case 2
+21 mar. 2022 15:56:36,641 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,641 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,647 TRACE repository.CharitableCaseRepository 67 update - Updated 1 instances
+21 mar. 2022 15:56:36,647 TRACE repository.CharitableCaseRepository 72 update - Exit
+21 mar. 2022 15:56:36,648 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+21 mar. 2022 15:56:36,648 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,648 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,649 TRACE repository.CharitableCaseRepository 49 delete - Exit: Deleted 0 instances
+21 mar. 2022 15:56:36,650 TRACE repository.CharitableCaseRepository 54 delete - Exit
+21 mar. 2022 15:56:36,650 TRACE repository.CharitableCaseRepository 104 findAll - Enter finding all charitable cases {}
+21 mar. 2022 15:56:36,651 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,651 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,654 TRACE repository.CharitableCaseRepository 121 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=5, name='Strangere fonduri', amountRaised=4500}, CharitableCase{id=6, name='Poluare', amountRaised=2000}, CharitableCase{id=7, name='Poluare', amountRaised=2000}, CharitableCase{id=8, name='Ucraina', amountRaised=60000}, CharitableCase{id=9, name='Ucraina', amountRaised=60000}, CharitableCase{id=10, name='Ucraina', amountRaised=60000}, CharitableCase{id=11, name='Ucraina', amountRaised=60000}, CharitableCase{id=12, name='Ucraina', amountRaised=60000}, CharitableCase{id=13, name='Ucraina', amountRaised=60000}, CharitableCase{id=14, name='Ucraina', amountRaised=60000}, CharitableCase{id=15, name='Ucraina', amountRaised=60000}, CharitableCase{id=16, name='Poluare', amountRaised=2000}, CharitableCase{id=17, name='Ucraina', amountRaised=60000}, CharitableCase{id=18, name='Poluare', amountRaised=2000}, CharitableCase{id=19, name='Poluare', amountRaised=2000}, CharitableCase{id=20, name='Poluare', amountRaised=2000}])
