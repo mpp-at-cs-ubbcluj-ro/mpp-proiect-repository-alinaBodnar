@@ -1,14 +1,6 @@
-2022-03-15 10:51:26,231 [1] INFO  CharitableCaseRepository [(null)] - Creating CharitableCaseRepository
-2022-03-15 10:51:26,318 [1] INFO  CharitableCaseRepository [(null)] - Finding all charitable cases
-2022-03-15 10:51:26,466 [1] INFO  CharitableCaseRepository [(null)] - Exiting findAll
-2022-03-15 10:51:26,511 [1] INFO  CharitableCaseRepository [(null)] - Saving charitable case
-2022-03-15 10:51:26,535 [1] INFO  CharitableCaseRepository [(null)] - Charitable Case saved
-2022-03-15 10:51:26,537 [1] INFO  CharitableCaseRepository [(null)] - Exiting save
-2022-03-15 10:51:26,539 [1] INFO  CharitableCaseRepository [(null)] - Updating charitable case
-2022-03-15 10:51:26,542 [1] INFO  CharitableCaseRepository [(null)] - Charitable case updated
-2022-03-15 10:51:26,542 [1] INFO  CharitableCaseRepository [(null)] - Exiting update
-2022-03-15 10:51:26,545 [1] INFO  CharitableCaseRepository [(null)] - Deleting charitable case
-2022-03-15 10:51:26,547 [1] ERROR CharitableCaseRepository [(null)] - No charitable case removed
-2022-03-15 10:51:26,549 [1] INFO  CharitableCaseRepository [(null)] - Exiting delete
-2022-03-15 10:51:26,551 [1] INFO  CharitableCaseRepository [(null)] - Finding all charitable cases
-2022-03-15 10:51:26,552 [1] INFO  CharitableCaseRepository [(null)] - Exiting findAll
+2022-03-28 14:19:16,419 [1] INFO  CharitableCaseRepository [(null)] - Creating CharitableCaseRepository
+2022-03-28 14:19:16,766 [1] INFO  CharitableCaseRepository [(null)] - Updating charitable case
+2022-03-28 14:19:17,504 [1] INFO  CharitableCaseRepository [(null)] - Charitable case updated
+2022-03-28 14:19:17,508 [1] INFO  CharitableCaseRepository [(null)] - Exiting update
+2022-03-28 14:19:17,509 [1] INFO  CharitableCaseRepository [(null)] - Finding all charitable cases
+2022-03-28 14:19:17,515 [1] INFO  CharitableCaseRepository [(null)] - Exiting findAll
