@@ -19,16 +19,15 @@ namespace teledonCS
             
             Console.WriteLine("Charitable Cases Repository DB");
             CharitableCaseRepository charitableCaseRepository = new CharitableCaseRepository(props);
-            foreach (CharitableCase variableCharitableCase in charitableCaseRepository.findAll())
-            {
-                Console.WriteLine(variableCharitableCase);
-            }
-            
-            CharitableCase charitableCase = new CharitableCase(4, "Ucraina", 60000);
-            charitableCaseRepository.save(charitableCase);
-            CharitableCase charitableCase1 = new CharitableCase(5, "Strangere fonduri", 4500);
+            // foreach (CharitableCase variableCharitableCase in charitableCaseRepository.findAll())
+            // {
+            //     Console.WriteLine(variableCharitableCase);
+            // }
+            //
+            // CharitableCase charitableCase = new CharitableCase(4, "Ucraina", 60000);
+            // charitableCaseRepository.save(charitableCase);
+            CharitableCase charitableCase1 = new CharitableCase(5, "Strangere fonduri", 1000);
             charitableCaseRepository.update(charitableCase1);
-            charitableCaseRepository.delete(20);
             foreach (CharitableCase variableCharitableCase in charitableCaseRepository.findAll())
             {
                 Console.WriteLine(variableCharitableCase);

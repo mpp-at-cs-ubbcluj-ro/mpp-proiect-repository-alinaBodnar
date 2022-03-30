@@ -9,7 +9,7 @@ using teledonCS.model;
 
 namespace teledonCS.repository
 {
-    class CharitableCaseRepository : ICharitableChaseRepository<int, CharitableCase>
+    class CharitableCaseRepository : ICharitableChaseRepository
     {
         private static readonly ILog log = LogManager.GetLogger("CharitableCaseRepository");
         IDictionary<String, string> props;
@@ -69,6 +69,37 @@ namespace teledonCS.repository
             return (List<CharitableCase>) charitableCases;
         }
 
+        public int? getCharitableCaseByName(string name)
+        {
+            log.InfoFormat("Entering find charitable case by name");
+            IDbConnection con = DBUtils.getConnection(props);
+
+            using (var comm = con.CreateCommand())
+            {
+                comm.CommandText = "select id from CharitableCases where name = @nameToSearch";
+                IDbDataParameter paramName = comm.CreateParameter();
+                paramName.ParameterName = "@nameToSearch";
+                paramName.Value = name;
+                comm.Parameters.Add(paramName);
+
+                using (var dataR = comm.ExecuteReader())
+                {
+                    if (dataR.Read())
+                    {
+                        int idCC = dataR.GetInt32(0);
+
+                        log.InfoFormat("Exiting find by name");
+                        
+                        return idCC;
+                    }
+                }
+            }
+
+            log.InfoFormat("Exiting findOne with value{0}", null);
+            return null;
+            
+        }
+
         public CharitableCase findOne(int key)
         {
             log.InfoFormat("Entering findOne with value{0}",key);
@@ -89,7 +120,8 @@ namespace teledonCS.repository
                         int idCC = dataR.GetInt32(0);
                         String nameCC = dataR.GetString(1);
                         int amountCC = dataR.GetInt32(2);
-                        CharitableCase charitableCase = new CharitableCase(idCC, nameCC, amountCC);
+                        CharitableCase charitableCase = new CharitableCase(nameCC, amountCC);
+                        charitableCase.id = idCC;
                         log.InfoFormat("Exiting findOne with value{0}",charitableCase);
                         return charitableCase;
                     }
@@ -148,19 +180,25 @@ namespace teledonCS.repository
                 paramAmount.Value = el.amountRaised;
                 comm.Parameters.Add(paramAmount);
 
-                var result = comm.ExecuteNonQuery();
-                if (result == 0)
+                try
                 {
-                    log.Error("No charitable case updated");
-                    throw new Exception("No charitable case updated!!");
+                    var result = comm.ExecuteNonQuery();
+                    if (result == 0)
+                    {
+                        log.Error("No charitable case updated");
+                        throw new Exception("No charitable case updated!!");
+                    }
+
                 }
-                else
+                catch (Exception e)
                 {
-                    log.InfoFormat("Charitable case updated");
+                    Console.Error.WriteLine(e.Message);
                 }
+                
             }
            
             log.InfoFormat("Exiting update");
-        }
+            }
+        
     }
 }

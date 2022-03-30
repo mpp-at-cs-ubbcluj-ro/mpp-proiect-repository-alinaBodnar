@@ -42,6 +42,7 @@ public class DonationService implements Observable<DonationEvent> {
 
     }
     public void saveDonation(CharitableCase charitableCase, Donor donor,Integer amount){
+
         Donation newDonation = new Donation(donor,charitableCase,amount);
         Integer oldAmount = charitableCase.getAmountRaised();
         donationRepository.save(newDonation);
