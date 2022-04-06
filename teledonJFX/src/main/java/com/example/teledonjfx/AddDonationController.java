@@ -83,7 +83,7 @@ public class AddDonationController {
 
     @FXML
     void SaveDonationButtonOnAction(ActionEvent event) {
-       String firstName = firstNameTextField.getText();
+        String firstName = firstNameTextField.getText();
         String lastName = lastNameTextField.getText();
         String address = addressTextField.getText();
         String phoneNr = phoneNrTextField.getText();
