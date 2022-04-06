@@ -1,0 +1,10 @@
+rootProject.name = 'TeledonSockets'
+include 'TeledonModel'
+include 'TeledonPersistence'
+include 'TeledonServices'
+include 'TeledonNetworking'
+include 'TeledonServer'
+include 'TeledonClient'
+include 'TeledonClientFX'
+include 'TeledonClientFX'
+
