@@ -1,0 +1,8 @@
+﻿namespace networking
+{
+    public enum ResponseType
+    {
+        OK,ERROR,GET_CHARITABLE_CASES,UPDATE,NEW_DONATION,GET_DONORS_BY_NAME,GET_DONOR_BY_FULL_NAME,DONOR_SAVED,DONOR_ID,
+        GET_DONOR,GET_CHARITABLE_CASE
+    }
+}

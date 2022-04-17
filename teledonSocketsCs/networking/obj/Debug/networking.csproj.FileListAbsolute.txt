@@ -1,0 +1,11 @@
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\networking.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\networking.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\model.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\services.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\model.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\bin\Debug\services.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\obj\Debug\networking.csprojAssemblyReference.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\obj\Debug\networking.csproj.CoreCompileInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\obj\Debug\networking.csproj.CopyComplete
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\obj\Debug\networking.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\networking\obj\Debug\networking.pdb
