@@ -10,3 +10,5 @@ WEEK 5: Services and GUI Java
 WEEK 6: Services and GUI C#
 
 WEEK7: Client server application using sockets in Java
+
+WEEK8: Client server application using sockets in C#
