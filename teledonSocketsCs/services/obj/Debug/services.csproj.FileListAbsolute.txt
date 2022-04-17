@@ -1,0 +1,9 @@
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\obj\Debug\services.csprojAssemblyReference.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\obj\Debug\services.csproj.CoreCompileInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\bin\Debug\services.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\bin\Debug\services.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\bin\Debug\model.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\bin\Debug\model.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\obj\Debug\services.csproj.CopyComplete
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\obj\Debug\services.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\services\obj\Debug\services.pdb

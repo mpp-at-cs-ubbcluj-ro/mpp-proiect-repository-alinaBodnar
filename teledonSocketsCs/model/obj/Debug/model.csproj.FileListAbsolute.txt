@@ -1,0 +1,6 @@
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\obj\Debug\model.csprojAssemblyReference.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\obj\Debug\model.csproj.CoreCompileInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\bin\Debug\model.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\bin\Debug\model.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\obj\Debug\model.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\model\obj\Debug\model.pdb
