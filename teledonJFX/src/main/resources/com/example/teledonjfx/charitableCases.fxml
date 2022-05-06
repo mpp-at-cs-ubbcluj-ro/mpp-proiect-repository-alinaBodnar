@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="310.0" prefWidth="584.0" style="-fx-background-color: #A2D5AB;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.teledonjfx.CharitableCasesController">
+   <children>
+      <TableView fx:id="charitableTable" layoutX="41.0" layoutY="29.0" prefHeight="247.0" prefWidth="334.0">
+        <columns>
+          <TableColumn fx:id="charitableCase" prefWidth="163.199951171875" text="Charitable Case" />
+          <TableColumn fx:id="amountRaised" prefWidth="168.00006103515625" text="Amount Raised" />
+        </columns>
+      </TableView>
+      <Label fx:id="labelInfo" layoutX="383.0" layoutY="134.0" prefHeight="18.0" prefWidth="196.0" textAlignment="CENTER" textFill="#f20000" />
+      <Button fx:id="AddDonationButton" layoutX="406.0" layoutY="88.0" mnemonicParsing="false" onAction="#AddDonationButtonOnAction" prefHeight="30.0" prefWidth="150.0" style="-fx-background-color: #39AEA9; -fx-background-radius: 16.4,15;" text="Add new donation" textFill="WHITE">
+         <font>
+            <Font name="Constantia Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button fx:id="logOutButton" layoutX="490.0" layoutY="15.0" mnemonicParsing="false" onAction="#logOutButtonOnAction" prefHeight="18.0" prefWidth="79.0" style="-fx-background-color: #39AEA9; -fx-background-radius: 16.4,15;" text="Log out" textFill="WHITE">
+         <font>
+            <Font name="Constantia Bold" size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.csprojAssemblyReference.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.Properties.Resources.resources
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.csproj.GenerateResource.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.csproj.CoreCompileInputs.cache
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\clientCs.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\clientCs.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\model.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\networking.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\services.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\model.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\networking.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\bin\Debug\services.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.csproj.CopyComplete
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.exe
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.pdb
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.LoginWindow.resources
+D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonSocketsCs\clientCs\obj\Debug\clientCs.MainWindow.resources

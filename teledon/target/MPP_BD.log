@@ -1,0 +1,389 @@
+13 mar. 2022 17:33:26,579 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:33:26,587 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:33:26,587 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:33:26,587 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:33:26,587 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:33:26,587 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:33:26,595 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:33:26,595 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:33:26,595 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:33:40,438 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:33:40,446 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:33:40,446 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:33:40,446 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:33:40,446 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:33:40,446 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:33:40,446 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:33:40,454 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:33:40,454 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:36:16,941 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:36:16,949 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:36:16,949 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:36:16,949 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:36:16,949 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:36:16,949 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:36:16,949 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:36:16,957 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:36:16,957 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:38:02,054 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:38:02,062 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:38:02,062 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:38:02,062 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:38:02,062 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:38:02,070 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:38:02,070 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:38:02,070 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:38:02,078 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:38:16,530 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:38:16,538 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:38:16,538 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:38:16,538 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:38:16,538 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:38:16,538 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:38:16,538 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:38:16,546 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:38:16,546 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:39:56,749 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:39:56,765 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:39:56,765 TRACE repository.JdbcUtils 46 getConnection - Enter
+13 mar. 2022 17:39:56,765 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:39:56,765 INFO  repository.JdbcUtils 27 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:39:56,765 INFO  repository.JdbcUtils 28 getNewConnection - user: null
+13 mar. 2022 17:39:56,765 INFO  repository.JdbcUtils 29 getNewConnection - pass: null
+13 mar. 2022 17:39:56,781 ERROR repository.JdbcUtils 39 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:39:56,789 TRACE repository.JdbcUtils 56 getConnection - Exit
+13 mar. 2022 17:42:06,879 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:42:06,895 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:42:06,895 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:42:06,895 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:42:06,895 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:42:06,895 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:42:06,895 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:42:06,895 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:42:06,903 TRACE repository.JdbcUtils 53 getConnection - Exit
+13 mar. 2022 17:46:13,558 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:46:13,574 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:46:13,574 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:46:13,574 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:46:13,574 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:46:13,574 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:46:13,574 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:46:13,582 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:46:13,582 TRACE repository.JdbcUtils 53 getConnection - Exit
+13 mar. 2022 17:48:11,762 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {}
+13 mar. 2022 17:48:11,778 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:48:11,778 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:48:11,778 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:48:11,778 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... null
+13 mar. 2022 17:48:11,778 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:48:11,778 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:48:11,786 ERROR repository.JdbcUtils 37 getNewConnection - java.sql.SQLException: The url cannot be null
+13 mar. 2022 17:48:11,786 TRACE repository.JdbcUtils 53 getConnection - Exit
+13 mar. 2022 17:49:13,750 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:49:13,766 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:49:13,766 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:49:13,766 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:49:13,766 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:49:13,766 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:49:13,766 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:49:14,105 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7fd50002)
+13 mar. 2022 17:49:14,131 TRACE repository.CharitableCaseRepository 118 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}])
+13 mar. 2022 17:51:07,607 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:51:07,631 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=3, name='Poluare', amountRaised=2000}
+13 mar. 2022 17:51:07,631 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:51:07,631 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:51:07,631 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:51:07,631 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:51:07,631 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:51:08,163 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:51:08,179 ERROR repository.CharitableCaseRepository 34 save - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (table CharitableCases has 3 columns but 2 values were supplied)
+13 mar. 2022 17:51:08,179 TRACE repository.CharitableCaseRepository 37 save - Exit
+13 mar. 2022 17:51:08,179 TRACE repository.CharitableCaseRepository 101 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:51:08,179 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:51:08,179 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:51:08,187 TRACE repository.CharitableCaseRepository 118 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}])
+13 mar. 2022 17:54:07,986 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:54:08,002 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=3, name='Poluare', amountRaised=2000}
+13 mar. 2022 17:54:08,002 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:54:08,002 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:54:08,002 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:54:08,002 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:54:08,002 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:54:08,292 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:55:06,075 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:55:06,090 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=3, name='Poluare', amountRaised=2000}
+13 mar. 2022 17:55:06,092 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:55:06,092 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:55:06,092 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:55:06,093 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:55:06,093 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:55:06,353 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:56:49,588 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:56:49,612 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 17:56:49,612 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:56:49,612 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:56:49,612 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:56:49,612 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:56:49,612 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:56:49,918 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:59:57,247 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 17:59:57,263 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 17:59:57,263 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:59:57,263 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 17:59:57,271 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 17:59:57,271 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 17:59:57,271 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 17:59:57,603 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:59:57,611 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 17:59:57,619 TRACE repository.CharitableCaseRepository 38 save - Exit
+13 mar. 2022 17:59:57,619 TRACE repository.CharitableCaseRepository 102 findAll - Enter finding all charitable cases {}
+13 mar. 2022 17:59:57,619 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 17:59:57,619 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 17:59:57,619 TRACE repository.CharitableCaseRepository 119 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Poluare', amountRaised=2000}])
+13 mar. 2022 18:00:45,852 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 18:00:45,866 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 18:00:45,866 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:00:45,866 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 18:00:45,866 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 18:00:45,874 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 18:00:45,874 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 18:00:46,122 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:00:46,138 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 18:00:46,138 TRACE repository.CharitableCaseRepository 38 save - Exit
+13 mar. 2022 18:00:46,138 TRACE repository.CharitableCaseRepository 102 findAll - Enter finding all charitable cases {}
+13 mar. 2022 18:00:46,138 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:00:46,138 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:00:46,138 TRACE repository.CharitableCaseRepository 119 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Poluare', amountRaised=2000}, CharitableCase{id=3, name='Poluare', amountRaised=2000}])
+13 mar. 2022 18:01:40,382 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 18:01:40,398 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 18:01:40,406 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:01:40,406 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 18:01:40,406 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 18:01:40,406 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 18:01:40,406 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 18:01:40,732 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:01:40,748 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 18:01:40,748 TRACE repository.CharitableCaseRepository 38 save - Exit
+13 mar. 2022 18:01:40,748 TRACE repository.CharitableCaseRepository 59 update - Enter updating charitable case 2
+13 mar. 2022 18:01:40,748 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:01:40,756 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:01:40,772 TRACE repository.CharitableCaseRepository 70 update - Exit
+13 mar. 2022 18:01:40,772 TRACE repository.CharitableCaseRepository 102 findAll - Enter finding all charitable cases {}
+13 mar. 2022 18:01:40,772 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:01:40,772 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:01:40,772 TRACE repository.CharitableCaseRepository 119 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=3, name='Poluare', amountRaised=2000}, CharitableCase{id=4, name='Poluare', amountRaised=2000}])
+13 mar. 2022 18:02:14,405 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 18:02:14,429 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 18:02:14,429 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:02:14,429 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 18:02:14,429 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 18:02:14,429 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 18:02:14,429 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 18:02:14,693 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:02:14,717 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 18:02:14,717 TRACE repository.CharitableCaseRepository 38 save - Exit
+13 mar. 2022 18:02:14,717 TRACE repository.CharitableCaseRepository 59 update - Enter updating charitable case 2
+13 mar. 2022 18:02:14,717 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:02:14,717 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:02:14,725 TRACE repository.CharitableCaseRepository 70 update - Exit
+13 mar. 2022 18:02:14,733 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+13 mar. 2022 18:02:14,733 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:02:14,733 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:04:34,172 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 18:04:34,188 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+13 mar. 2022 18:04:34,188 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:04:34,188 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 18:04:34,188 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 18:04:34,188 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 18:04:34,196 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 18:04:34,493 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:04:34,525 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 18:04:34,525 TRACE repository.CharitableCaseRepository 38 save - Exit
+13 mar. 2022 18:04:34,525 TRACE repository.CharitableCaseRepository 59 update - Enter updating charitable case 2
+13 mar. 2022 18:04:34,525 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:04:34,525 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:04:34,533 TRACE repository.CharitableCaseRepository 66 update - Updated 1 instances
+13 mar. 2022 18:04:34,533 TRACE repository.CharitableCaseRepository 71 update - Exit
+13 mar. 2022 18:04:34,533 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+13 mar. 2022 18:04:34,533 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:04:34,533 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:04:34,557 TRACE repository.CharitableCaseRepository 53 delete - Exit
+13 mar. 2022 18:04:34,557 TRACE repository.CharitableCaseRepository 103 findAll - Enter finding all charitable cases {}
+13 mar. 2022 18:04:34,557 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 18:04:34,557 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 18:04:34,557 TRACE repository.CharitableCaseRepository 120 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=4, name='Poluare', amountRaised=2000}, CharitableCase{id=5, name='Poluare', amountRaised=2000}, CharitableCase{id=6, name='Poluare', amountRaised=2000}])
+13 mar. 2022 19:11:59,287 INFO  repository.DonorRepository 21 <init> - Initializing DonorRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 19:11:59,295 TRACE repository.DonorRepository 27 save - Enter saving donor Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}
+13 mar. 2022 19:11:59,296 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:11:59,296 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 19:11:59,296 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 19:11:59,296 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 19:11:59,297 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 19:11:59,497 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:11:59,506 TRACE repository.DonorRepository 35 save - Exit: Saved 1 instances
+13 mar. 2022 19:11:59,507 TRACE repository.DonorRepository 40 save - Exit
+13 mar. 2022 19:11:59,508 TRACE repository.DonorRepository 108 findAll - Enter finding all donors {}
+13 mar. 2022 19:11:59,508 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:11:59,508 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:11:59,509 TRACE repository.DonorRepository 127 findAll - Exit with([Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}])
+13 mar. 2022 19:14:11,462 INFO  repository.DonorRepository 21 <init> - Initializing DonorRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 19:14:11,473 TRACE repository.DonorRepository 27 save - Enter saving donor Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}
+13 mar. 2022 19:14:11,473 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:11,474 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 19:14:11,474 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 19:14:11,475 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 19:14:11,475 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 19:14:11,683 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:11,690 TRACE repository.DonorRepository 35 save - Exit: Saved 1 instances
+13 mar. 2022 19:14:11,691 TRACE repository.DonorRepository 40 save - Exit
+13 mar. 2022 19:14:11,691 TRACE repository.DonorRepository 61 update - Enter updating donor 1
+13 mar. 2022 19:14:11,692 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:11,692 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:11,702 ERROR repository.DonorRepository 72 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: firstName)
+13 mar. 2022 19:14:11,703 TRACE repository.DonorRepository 75 update - Exit
+13 mar. 2022 19:14:11,703 TRACE repository.DonorRepository 108 findAll - Enter finding all donors {}
+13 mar. 2022 19:14:11,703 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:11,703 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:11,704 TRACE repository.DonorRepository 127 findAll - Exit with([Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}, Donor{id=2, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}])
+13 mar. 2022 19:14:47,321 INFO  repository.DonorRepository 21 <init> - Initializing DonorRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 19:14:47,329 TRACE repository.DonorRepository 27 save - Enter saving donor Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}
+13 mar. 2022 19:14:47,330 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:47,330 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 19:14:47,331 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 19:14:47,331 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 19:14:47,332 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 19:14:47,530 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:47,538 TRACE repository.DonorRepository 35 save - Exit: Saved 1 instances
+13 mar. 2022 19:14:47,538 TRACE repository.DonorRepository 40 save - Exit
+13 mar. 2022 19:14:47,539 TRACE repository.DonorRepository 61 update - Enter updating donor 1
+13 mar. 2022 19:14:47,539 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:47,539 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:47,546 ERROR repository.DonorRepository 72 update - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such column: firstName)
+13 mar. 2022 19:14:47,547 TRACE repository.DonorRepository 75 update - Exit
+13 mar. 2022 19:14:47,548 TRACE repository.DonorRepository 108 findAll - Enter finding all donors {}
+13 mar. 2022 19:14:47,548 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:14:47,548 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:14:47,549 TRACE repository.DonorRepository 127 findAll - Exit with([Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}, Donor{id=2, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}, Donor{id=3, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}])
+13 mar. 2022 19:15:29,162 INFO  repository.DonorRepository 21 <init> - Initializing DonorRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 19:15:29,171 TRACE repository.DonorRepository 27 save - Enter saving donor Donor{id=1, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}
+13 mar. 2022 19:15:29,171 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:15:29,172 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 19:15:29,172 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 19:15:29,172 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 19:15:29,173 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 19:15:29,378 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:15:29,385 TRACE repository.DonorRepository 35 save - Exit: Saved 1 instances
+13 mar. 2022 19:15:29,385 TRACE repository.DonorRepository 40 save - Exit
+13 mar. 2022 19:15:29,386 TRACE repository.DonorRepository 61 update - Enter updating donor 1
+13 mar. 2022 19:15:29,386 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:15:29,387 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:15:29,393 TRACE repository.DonorRepository 70 update - Updated 1 instances
+13 mar. 2022 19:15:29,395 TRACE repository.DonorRepository 75 update - Exit
+13 mar. 2022 19:15:29,395 TRACE repository.DonorRepository 108 findAll - Enter finding all donors {}
+13 mar. 2022 19:15:29,395 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:15:29,396 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@723ca036)
+13 mar. 2022 19:15:29,397 TRACE repository.DonorRepository 127 findAll - Exit with([Donor{id=1, firstName='Maria', lastName='Hasna', address='Clujjjjj', phoneNumber='0788888888'}, Donor{id=2, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}, Donor{id=3, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}, Donor{id=4, firstName='Vasile', lastName='Popescu', address='Cluj 190J', phoneNumber='071234455'}])
+13 mar. 2022 19:31:02,160 INFO  repository.VolunteerRepository 21 <init> - Initializing VolunteerRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+13 mar. 2022 19:31:02,174 TRACE repository.VolunteerRepository 27 save - Enter saving volunteer Volunteer{id=1, firstName='mari12', lastName='123'}
+13 mar. 2022 19:31:02,175 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,175 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+13 mar. 2022 19:31:02,176 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+13 mar. 2022 19:31:02,176 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+13 mar. 2022 19:31:02,177 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+13 mar. 2022 19:31:02,393 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,402 TRACE repository.VolunteerRepository 33 save - Exit: Saved 1 instances
+13 mar. 2022 19:31:02,403 TRACE repository.VolunteerRepository 38 save - Exit
+13 mar. 2022 19:31:02,404 TRACE repository.VolunteerRepository 59 update - Enter updating volunteer 2
+13 mar. 2022 19:31:02,404 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,405 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,416 TRACE repository.VolunteerRepository 66 update - Updated 1 instances
+13 mar. 2022 19:31:02,417 TRACE repository.VolunteerRepository 71 update - Exit
+13 mar. 2022 19:31:02,417 TRACE repository.VolunteerRepository 102 findAll - Enter finding all volunteers {}
+13 mar. 2022 19:31:02,418 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,418 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,420 TRACE repository.VolunteerRepository 119 findAll - Exit with([Volunteer{id=1, firstName='alin12', lastName='345'}, Volunteer{id=2, firstName='marinel', lastName='bicicleta'}, Volunteer{id=3, firstName='mari12', lastName='123'}])
+13 mar. 2022 19:31:02,420 TRACE repository.VolunteerRepository 127 size - Enter
+13 mar. 2022 19:31:02,421 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,421 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,422 TRACE repository.VolunteerRepository 132 size - Exit with(3)
+13 mar. 2022 19:31:02,423 TRACE repository.VolunteerRepository 44 delete - Enter deleting volunteer 3
+13 mar. 2022 19:31:02,423 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,423 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,428 TRACE repository.VolunteerRepository 49 delete - Exit: Deleted 1 instances
+13 mar. 2022 19:31:02,428 TRACE repository.VolunteerRepository 54 delete - Exit
+13 mar. 2022 19:31:02,429 TRACE repository.VolunteerRepository 127 size - Enter
+13 mar. 2022 19:31:02,430 TRACE repository.JdbcUtils 44 getConnection - Enter
+13 mar. 2022 19:31:02,430 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+13 mar. 2022 19:31:02,431 TRACE repository.VolunteerRepository 132 size - Exit with(2)
+15 mar. 2022 09:33:56,349 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+15 mar. 2022 09:33:56,365 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+15 mar. 2022 09:33:56,365 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 09:33:56,365 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+15 mar. 2022 09:33:56,365 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+15 mar. 2022 09:33:56,365 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+15 mar. 2022 09:33:56,365 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+15 mar. 2022 09:33:56,646 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 09:33:56,662 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+15 mar. 2022 09:33:56,662 TRACE repository.CharitableCaseRepository 38 save - Exit
+15 mar. 2022 09:33:56,662 TRACE repository.CharitableCaseRepository 60 update - Enter updating charitable case 2
+15 mar. 2022 09:33:56,662 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 09:33:56,662 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 09:33:56,670 TRACE repository.CharitableCaseRepository 67 update - Updated 1 instances
+15 mar. 2022 09:33:56,678 TRACE repository.CharitableCaseRepository 72 update - Exit
+15 mar. 2022 09:33:56,678 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+15 mar. 2022 09:33:56,678 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 09:33:56,678 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 09:33:56,678 TRACE repository.CharitableCaseRepository 49 delete - Exit: Deleted 0 instances
+15 mar. 2022 09:33:56,678 TRACE repository.CharitableCaseRepository 54 delete - Exit
+15 mar. 2022 09:33:56,678 TRACE repository.CharitableCaseRepository 104 findAll - Enter finding all charitable cases {}
+15 mar. 2022 09:33:56,686 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 09:33:56,686 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 09:33:56,686 TRACE repository.CharitableCaseRepository 121 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=4, name='Poluare', amountRaised=2000}, CharitableCase{id=5, name='Poluare', amountRaised=2000}, CharitableCase{id=6, name='Poluare', amountRaised=2000}, CharitableCase{id=7, name='Poluare', amountRaised=2000}])
+15 mar. 2022 10:50:44,513 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+15 mar. 2022 10:50:44,559 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+15 mar. 2022 10:50:44,567 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 10:50:44,567 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+15 mar. 2022 10:50:44,567 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+15 mar. 2022 10:50:44,567 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+15 mar. 2022 10:50:44,567 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+15 mar. 2022 10:50:44,943 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 10:50:44,951 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+15 mar. 2022 10:50:44,959 TRACE repository.CharitableCaseRepository 38 save - Exit
+15 mar. 2022 10:50:44,959 TRACE repository.CharitableCaseRepository 60 update - Enter updating charitable case 2
+15 mar. 2022 10:50:44,959 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 10:50:44,959 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 67 update - Updated 1 instances
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 72 update - Exit
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 49 delete - Exit: Deleted 0 instances
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 54 delete - Exit
+15 mar. 2022 10:50:44,975 TRACE repository.CharitableCaseRepository 104 findAll - Enter finding all charitable cases {}
+15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 44 getConnection - Enter
+15 mar. 2022 10:50:44,975 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+15 mar. 2022 10:50:44,983 TRACE repository.CharitableCaseRepository 121 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=5, name='Strangere fonduri', amountRaised=4500}, CharitableCase{id=6, name='Poluare', amountRaised=2000}, CharitableCase{id=7, name='Poluare', amountRaised=2000}, CharitableCase{id=8, name='Ucraina', amountRaised=60000}, CharitableCase{id=9, name='Ucraina', amountRaised=60000}, CharitableCase{id=10, name='Ucraina', amountRaised=60000}, CharitableCase{id=11, name='Ucraina', amountRaised=60000}, CharitableCase{id=12, name='Ucraina', amountRaised=60000}, CharitableCase{id=13, name='Ucraina', amountRaised=60000}, CharitableCase{id=14, name='Ucraina', amountRaised=60000}, CharitableCase{id=15, name='Ucraina', amountRaised=60000}, CharitableCase{id=16, name='Poluare', amountRaised=2000}])
+21 mar. 2022 15:56:36,401 INFO  repository.CharitableCaseRepository 21 <init> - Initializing CharitableCaseRepository with properties: {jdbc.url=jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db}
+21 mar. 2022 15:56:36,415 TRACE repository.CharitableCaseRepository 27 save - Enter saving charitable case CharitableCase{id=2, name='Poluare', amountRaised=2000}
+21 mar. 2022 15:56:36,415 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,416 TRACE repository.JdbcUtils 21 getNewConnection - Enter
+21 mar. 2022 15:56:36,416 INFO  repository.JdbcUtils 26 getNewConnection - trying to connect to database ... jdbc:sqlite:D:\AN2SEM2\mpp-proiect-repository-alinaBodnar\teledonTV.db
+21 mar. 2022 15:56:36,417 INFO  repository.JdbcUtils 27 getNewConnection - user: null
+21 mar. 2022 15:56:36,417 INFO  repository.JdbcUtils 28 getNewConnection - pass: null
+21 mar. 2022 15:56:36,629 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,639 TRACE repository.CharitableCaseRepository 33 save - Exit: Saved 1 instances
+21 mar. 2022 15:56:36,639 TRACE repository.CharitableCaseRepository 38 save - Exit
+21 mar. 2022 15:56:36,640 TRACE repository.CharitableCaseRepository 60 update - Enter updating charitable case 2
+21 mar. 2022 15:56:36,641 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,641 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,647 TRACE repository.CharitableCaseRepository 67 update - Updated 1 instances
+21 mar. 2022 15:56:36,647 TRACE repository.CharitableCaseRepository 72 update - Exit
+21 mar. 2022 15:56:36,648 TRACE repository.CharitableCaseRepository 44 delete - Enter deleting charitable case 3
+21 mar. 2022 15:56:36,648 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,648 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,649 TRACE repository.CharitableCaseRepository 49 delete - Exit: Deleted 0 instances
+21 mar. 2022 15:56:36,650 TRACE repository.CharitableCaseRepository 54 delete - Exit
+21 mar. 2022 15:56:36,650 TRACE repository.CharitableCaseRepository 104 findAll - Enter finding all charitable cases {}
+21 mar. 2022 15:56:36,651 TRACE repository.JdbcUtils 44 getConnection - Enter
+21 mar. 2022 15:56:36,651 TRACE repository.JdbcUtils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@66982506)
+21 mar. 2022 15:56:36,654 TRACE repository.CharitableCaseRepository 121 findAll - Exit with([CharitableCase{id=1, name='Balene', amountRaised=5000}, CharitableCase{id=2, name='Foamete', amountRaised=50000}, CharitableCase{id=5, name='Strangere fonduri', amountRaised=4500}, CharitableCase{id=6, name='Poluare', amountRaised=2000}, CharitableCase{id=7, name='Poluare', amountRaised=2000}, CharitableCase{id=8, name='Ucraina', amountRaised=60000}, CharitableCase{id=9, name='Ucraina', amountRaised=60000}, CharitableCase{id=10, name='Ucraina', amountRaised=60000}, CharitableCase{id=11, name='Ucraina', amountRaised=60000}, CharitableCase{id=12, name='Ucraina', amountRaised=60000}, CharitableCase{id=13, name='Ucraina', amountRaised=60000}, CharitableCase{id=14, name='Ucraina', amountRaised=60000}, CharitableCase{id=15, name='Ucraina', amountRaised=60000}, CharitableCase{id=16, name='Poluare', amountRaised=2000}, CharitableCase{id=17, name='Ucraina', amountRaised=60000}, CharitableCase{id=18, name='Poluare', amountRaised=2000}, CharitableCase{id=19, name='Poluare', amountRaised=2000}, CharitableCase{id=20, name='Poluare', amountRaised=2000}])

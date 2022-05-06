@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="TeledonPersistence.mpp-proiect-repository-alinaBodnar.main" target="17" />
+      <module name="TeledonPersistence.mpp-proiect-repository-alinaBodnar.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

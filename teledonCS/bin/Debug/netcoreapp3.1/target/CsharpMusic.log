@@ -1,0 +1,6 @@
+2022-03-28 14:19:16,419 [1] INFO  CharitableCaseRepository [(null)] - Creating CharitableCaseRepository
+2022-03-28 14:19:16,766 [1] INFO  CharitableCaseRepository [(null)] - Updating charitable case
+2022-03-28 14:19:17,504 [1] INFO  CharitableCaseRepository [(null)] - Charitable case updated
+2022-03-28 14:19:17,508 [1] INFO  CharitableCaseRepository [(null)] - Exiting update
+2022-03-28 14:19:17,509 [1] INFO  CharitableCaseRepository [(null)] - Finding all charitable cases
+2022-03-28 14:19:17,515 [1] INFO  CharitableCaseRepository [(null)] - Exiting findAll
